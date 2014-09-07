@@ -24,20 +24,20 @@ Remember it's a fake web chat and there is no connection to the back-end, just a
  
 1) The user is presented with a web chat widget with a call to action to start the chat.
 
-[<img src="http://i.imgur.com/pkdX57F.png">]
+<img src="http://i.imgur.com/pkdX57F.png">
  
 2) Once the user clicks on the "Chat now" link, he gets a message from Mary, after 1 second.
 
-[<img src="http://i.imgur.com/PDWuMl0.png">]
+<img src="http://i.imgur.com/PDWuMl0.png">
  
 3) The user enters the below message in the form filed and presses "send".
 The conversation ballon is updated with his message.
 
-[<img src="http://i.imgur.com/cnvIQlV.png">]
+<img src="http://i.imgur.com/cnvIQlV.png">
  
 4) After 3 seconds, Mary replies with the below message.
 
-[<img src="http://i.imgur.com/kHEDb9V.png">]
+<img src="http://i.imgur.com/kHEDb9V.png">
  
 That's it. Good luck!
 
