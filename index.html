@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WebChat</title>
+<link href="style.css" rel="stylesheet">
+<script src="jquery-1.11.0.min.js"></script>
+<script src="scripts.js"></script>
+</head>
+<body>
+<div class="main">
+	<div class="mainTitle">WebChat</div>
+	<div class="speechBubble">
+		<p>Start chatting by clicking "Chat Now"</p>
+		<div class="pointer"></div>
+	</div>
+	<div class="speechStart">
+		<p><strong>Mary : </strong>Hi Nicholas this is Mary from Abank. How may I help you today?</p>
+		<p id="Nicholas"></p>
+		<div id="Mary"></div>
+		<div class="pointer"></div>
+	</div>
+	<div class="chatNow">
+		<a href="#" id="toChat">Chat now</a>
+	</div>
+	<div class="chatBox">
+		<input id="textBox" type="text" size="30">
+		<button id="send">Send</button>
+	</div>
+</div>
+</body>
+</html>

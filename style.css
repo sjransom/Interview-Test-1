@@ -1,0 +1,88 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+	height: 268px;
+	width: 320px;
+	background-color:#990000;
+	position: relative;
+	border-radius: 10px;
+}
+
+.mainTitle {
+	color:#FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.speechBubble {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	height: 150px;
+	width: 280px;
+	background: #D6D6D6;
+	border: #bbb solid 0;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+.speechBubble p {
+	padding: 10px;
+	font-size: 26px;
+	font-weight: bold;
+	color:#424242;
+}
+
+.pointer {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 30px 15px 0;
+	border-color: #D6D6D6 transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	bottom: -30px;
+	left: 181px;
+}
+
+.chatNow {
+	color:#FFFFFF;
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+.chatNow a {
+	color:#FFFFFF;
+}
+
+.speechStart {
+	display: none;
+	position: absolute;
+	height: 150px;
+	width: 280px;
+	background: #D6D6D6;
+	border: #bbb solid 0;
+	border-radius: 15px;
+	margin: 0 auto;
+}
+
+.speechStart p {
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+.chatBox {
+	position: absolute;
+	bottom: 10px;
+	left: 20px;
+}
